@@ -3,7 +3,7 @@ import { ReviewsType } from "./types.ts";
 
 const Reviews = () => {
     const [reviews, setReviews] = useState<ReviewsType[]>([]);
-    const Host = "http://213.109.202.246:8000";
+    const Host = "https://fixworks-marble.com";
 
     useEffect(() => {
         fetch(`${Host}/api/v1/reviews`)

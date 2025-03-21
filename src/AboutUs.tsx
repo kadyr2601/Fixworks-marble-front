@@ -11,7 +11,7 @@ interface AboutUsData {
 const AboutUs = () => {
     const [aboutData, setAboutData] = useState<AboutUsData | null>(null);
 
-    const Host = "http://213.109.202.246:8000";
+    const Host = "https://fixworks-marble.com";
 
     useEffect(() => {
         fetch(`${Host}/api/v1/about-us`)

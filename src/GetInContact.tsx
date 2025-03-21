@@ -5,7 +5,7 @@ const GetInContact = () => {
 
     const [obj, setObj] = useState<GetInContactType>();
 
-    const Host = "http://213.109.202.246:8000";
+    const Host = "https://fixworks-marble.com";
 
     useEffect(() => {
         fetch(`${Host}/api/v1/get-in-contact`)

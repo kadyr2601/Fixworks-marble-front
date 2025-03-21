@@ -4,7 +4,7 @@ import { Service } from './types';
 const Services = () => {
     const [services, setServices] = useState<Service[]>([]);
 
-    const Host = "http://213.109.202.246:8000/api/v1";
+    const Host = "https://fixworks-marble.com/api/v1";
 
     useEffect(() => {
         fetch(`${Host}/services`)

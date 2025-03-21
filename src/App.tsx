@@ -17,7 +17,7 @@ function App() {
 
   const [partners, setPartners] = useState<PartnersType[]>([]);
 
-  const Host = "http://213.109.202.246:8000";
+  const Host = "https://fixworks-marble.com";
 
   useEffect(() => {
     fetch(`${Host}/api/v1/partners`)

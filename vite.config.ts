@@ -7,6 +7,7 @@ export default defineConfig({
     port: 3000
   },
   preview: {
-    port: 5000
+    port: 5000,
+    allowedHosts: ['fixworks-marble.com']
   }
 });

@@ -5,7 +5,7 @@ const WhatOurClientSay = () => {
 
     const [obj, setObj] = useState<WhatOurClientSayType>();
 
-    const Host = "http://213.109.202.246:8000";
+    const Host = "https://fixworks-marble.com";
 
     useEffect(() => {
         fetch(`${Host}/api/v1/what-our-clients-say`)

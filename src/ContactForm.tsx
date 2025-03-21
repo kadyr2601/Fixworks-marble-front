@@ -24,7 +24,7 @@ const ContactForm = () => {
 
         try {
             // Отправляем запрос на сервер
-            const response = await fetch("http://213.109.202.246:8000/api/v1/send-email", {
+            const response = await fetch("https://fixworks-marble.com/api/v1/send-email", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",

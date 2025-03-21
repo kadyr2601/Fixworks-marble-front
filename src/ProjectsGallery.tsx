@@ -3,7 +3,7 @@ import { ProjectsGalleryType } from './types';
 
 const ProjectsGallery = () => {
     const [projects, setProjects] = useState<ProjectsGalleryType[]>([]);
-    const Host = "http://213.109.202.246:8000";
+    const Host = "https://fixworks-marble.com";
 
     // Array of column classes that mimics the static layout
     const colClasses = ['col-md-2', 'col-md-2', 'col-md-3', 'col-md-3', 'col-md-2'];

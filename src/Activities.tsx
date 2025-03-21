@@ -16,7 +16,7 @@ interface ActivityData {
 const Activities = () => {
     const [activityData, setActivityData] = useState<ActivityData | null>(null);
 
-    const Host = "http://213.109.202.246:8000/api/v1";
+    const Host = "https://fixworks-marble.com/api/v1";
 
     useEffect(() => {
         fetch(`${Host}/activities`)
